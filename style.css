@@ -1,0 +1,103 @@
+* {
+  font-weight:normal;
+  text-decoration: none;
+}
+body{
+  background-color: #acacac;
+}
+.header {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  background-color: rgb(102, 100, 100);
+
+}
+.name {
+position: relative;
+left: 250px;
+}
+.social-icons {
+list-style:none;
+display: inline-flex;
+margin-left: 1000px;
+}
+.story {
+  margin-top: 50px;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  text-align: center;
+  margin-left: 80px;
+}
+.long{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  background-color: rgb(102, 100, 100);
+}
+.links {
+  width: 200px;
+  display: block;
+  bottom: 250px;
+  top: 100px;;
+  
+  position: sticky;
+  text-align: center;
+}
+.button1 {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+
+}
+.button1 :hover {
+  background-color: #fd401f  ; 
+  color: rgb(238, 212, 212);
+  transition-duration: 1s;
+}
+.country{
+margin-top: 100px;
+text-align: center;
+ margin-left: 100px;
+}
+.world {
+  margin-left: 100px;
+}
+.galery{ 
+  margin-top: 100px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.thumb {
+  margin-right: 50px; 
+  margin-bottom: 10px; 
+}
+
+.contact {
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  text-decoration: none;
+  background-image: url(img9.jpg);
+  background-size: 150px;
+  opacity: 0.8;
+}
+
+.footer {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  background-color: rgb(102, 100, 100);
+}
+
+.list6b {
+    padding:0;
+    list-style: none;
+}
+.list6b li{
+    font-size:larger;
+    padding:8px;
+}
+.list6b li:before {
+    padding-right:10px;
+    font-weight: bold;
+    color: #4e4e4e;
+    content: "\2714";
+    transition-duration: 0.5s;
+}
+.list6b li:hover:before {
+    color: #337AB7;
+    content: "\2714";
+}    
